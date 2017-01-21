@@ -317,8 +317,9 @@ static void userui_prepare_status(int clearbar, const char *fmt, ...)
 
 	if (ui_helper_data.pid == -1)
 		pr_err("%s\n", lastheader);
-	else
+	/*else
 		toi_message(0, TOI_STATUS, 1, lastheader, NULL);
+        */
 }
 
 /**
